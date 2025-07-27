@@ -1,5 +1,3 @@
-## Note: Not maintaining this anymore and stopped all the services related to this codebase
-
 # Akash Provider Daemon
 
 [![tests](https://github.com/akash-network/provider/actions/workflows/tests.yaml/badge.svg)](https://github.com/akash-network/provider/actions/workflows/tests.yaml)
@@ -8,7 +6,7 @@ This folder contains the Akash Provider Daemon. This piece of software listens t
 
 ## Development environment
 
-[This doc](https://github.com/akash-network/node/blob/master/_docs/development-environment.md) guides through setting up local development environment 
+[This doc](https://github.com/akash-network/node/blob/master/_docs/development-environment.md) guides through setting up local development environment
 
 ## Structure
 
@@ -33,3 +31,21 @@ Declares the pubsub events that the `provider` needs to take action on won lease
 Contains hanlder code for the rest server exposed by the `provider`
 
 ### [`manifest`](./manifest)
+
+# Archived Repository
+
+This repository was initially used for educational and testing purposes during our early exploration of compute infrastructure, including a period of collaboration and experimentation with the Akash Network under the Apache 2.0 license.
+
+We have now migrated to a new, independently developed production codebase under a new GitHub organization:
+👉 [https://github.com/spheron-core/](https://github.com/spheron-core/)
+
+This migration aligns with our roadmap toward TGE, Foundation-based governance, and long-term code maintainability.
+
+Note:
+
+- This repository is now deprecated and archived.
+- It is no longer maintained and is not used in any part of the production infrastructure.
+- All original attributions have been preserved in compliance with the Apache 2.0 license.
+- No active development will occur on this repository moving forward.
+
+For the latest updates and active development, please refer to the new organization above.
